@@ -1,0 +1,114 @@
+body {
+    font-family: 'Bacasime Antique', serif;
+    background-color: rgb(129, 128, 126);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding-right: 2rem;
+}
+header.nav{
+    background-color: rgb(197, 193, 193);
+    padding: 60px;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    position: relative;
+}
+.icon {
+    width: 32px;
+    position:absolute;
+    top: 20%;
+    transform: translateY(50%);
+    left: 35px;
+    height: 32px;
+    
+}
+
+header h1 {
+    font-size: 10vmin;
+    text-transform: uppercase;
+    padding-left: 1rem;
+    font-weight: 500;
+}
+.header-menu ul{
+    display: flex;
+    gap: 30px;
+    max-width: 100%;
+}
+.header-menu a {
+    font-weight: 500;
+    font-size: 1.5rem;
+    max-width: 100%;
+}
+.banner h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+    font-weight: 400;
+    font-size: 3rem;
+}
+.banner h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: oblique;
+    margin-bottom: 10px;
+}
+.banner hr {
+    width: 100%;
+    height: 2px;
+    margin-bottom: 70px;
+}
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cadastro form input {
+    padding: 15px;
+    border: 1px solid var(--color-2);
+    border-radius: 4px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 300px
+    
+}
+.cadastro form button {
+    padding: 15px;
+    background:rgb(255, 255, 255);
+    color:black;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 200px 0;
+}
+footer ul {
+    display: flex;
+    margin-bottom: 25px;
+}
+footer ul li {
+    margin-right: 10px;
+}
+footer ul li:last-child {
+    margin-right: 0;
+}
+
+
